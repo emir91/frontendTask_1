@@ -34,5 +34,3 @@ const findRelatives = (value) => {
     return result.filter(el => el != undefined)
                  .reduce((acc, currValue) => acc + currValue, value);
 }
-
-console.log(findRelatives(45));
